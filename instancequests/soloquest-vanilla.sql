@@ -25,7 +25,6 @@
 -- SELECT * FROM creature_template WHERE entry = 37776
 
 DELETE FROM creature_template WHERE entry = 70001;
-
 INSERT INTO creature_template VALUES(
 70001, -- entry
 0, 0, 0, -- difficulty entry 123

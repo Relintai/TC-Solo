@@ -2,3 +2,4 @@ levelling 61+
 Mall
 Transmog bags
 Telenpc better locations
+D3 rugoue should be removed, and instead added as the set's name
