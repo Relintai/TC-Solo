@@ -1,12 +1,21 @@
-
 -- quest npc
+-- Well aq40 gear is op, compared to these dungeons, so the player should go through 1 for each loc
+-- to level up to 70, and each CoT, to have the attunements.
 -- 61-
+-- CoT old hills(66-70), Cot BlackM (68-70), 
+-- (AUCH) Mana Tombs (53-70)
+-- (CR) Slave Pens (61-69)
+-- (HFC) Ramparts (59-67)
+-- (TK) Bota (69-70)
+-- MGT 68-70 (5man)
+-- 70
 -- CoT old hills(66-70), Cot BlackM (68-70), 
 -- (AUCH) Auchenai Crypts (64-70), (AUCH) Mana Tombs (53-70), (AUCH) Sethekk Halls (66-70), 
 -- (AUCH) Shadow Lab (69-70)
 -- (CR) Slave Pens (61-69), (CR) Steamvault (69-70), (CR) Underbog (62-70)
 -- (HFC) Ramparts (59-67), (HFC) Blood Furnace (60-68), (HFC) Shattered Halls (69-70)
 -- (TK) Arcatraz(69-70), (TK) Bota (69-70), (TK) The Mechanar (68-70)
+--  MGT 68-70 (5man)
 -- BT(70.25), SSC(70.25), 
 -- Gruul's Lair (70.25), Magtheridon's lair (70.25), (TK) The Eye (70.25)
 -- Kara (70.10), MGT(70.5), Sunwell Plateau (70.25), ZA (70.10), CoT Hyjal(70.25)
