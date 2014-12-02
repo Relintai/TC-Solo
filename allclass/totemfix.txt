@@ -1,0 +1,33 @@
+The "leecher" came to come and post a fix for your patch, this will fix the 0 display id for the new classes when you spawn totems with a shaman.
+
+
+Totem fix: Here is simple and quick fix, delete this from your totem.cpp and presto you will have normal displays for your totems.
+
+Code:
+// set display id depending on caster's race
+        SetDisplayId(m_owner->GetModelForTotem(PlayerTotemType(m_Properties->Id)));
+Alternative fix, so horde have proper display id's for their totems, not just alli ones. (Just copy the horde/alli display id's here and add a new field for each missing race and recompile your core.)
+Code:
+ 
+src\server\game\Entities\Unit\Unit.cpp
+
+
+
+
+uint32 Unit::GetModelForTotem(PlayerTotemType totemType)
+{
+    switch (getRace())
+    {
+        case RACE_ORC:
+        {
+            switch (totemType)
+            {
+                case SUMMON_TYPE_TOTEM_FIRE:    // fire
+                    return 30758;
+                case SUMMON_TYPE_TOTEM_EARTH:   // earth
+                    return 30757;
+                case SUMMON_TYPE_TOTEM_WATER:   // water
+                    return 30759;
+                case SUMMON_TYPE_TOTEM_AIR:     // air
+                    return 30756;
+Enjoy!
