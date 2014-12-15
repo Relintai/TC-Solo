@@ -4,7 +4,7 @@ INSERT INTO creature_template VALUES(
 0, 0, 0, -- difficulty entry 123
 0, 0, -- killcredit 1, 2
 28172, 0, 0, 0, -- modelid 1, 2, 3, 4,
-"Transmog Set Vendor", "Pure Awesomeness", -- name, subname
+"Transmog Rogue Set Vendor", "Pure Awesomeness", -- name, subname
 NULL, -- iconname
 0, -- gossip menu id
 80, 80, -- minlevel, maxlevel

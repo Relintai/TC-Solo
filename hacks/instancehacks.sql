@@ -1,5 +1,10 @@
 -- Remove the bugged gates here with sql
 -- TODO
+-- removed gobject GUID: 32708, ID: 183049 (steamvault bugged door)
+-- removed gobj GUID: 18539, ID 186728 (ZA Door)
+-- removed gobj GUID: 47284, ID 186305 (ZA boss door)
+
+
 
 -- Disable C'thun's script
 UPDATE creature_template SET ScriptName = "" WHERE entry = 15589;

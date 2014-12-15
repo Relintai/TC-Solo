@@ -283,7 +283,7 @@ INSERT INTO item_template VALUES(70004, -- entry
 31, 200, -- stat4
 36, 100, -- stat5
 43, 50, -- stat6
-45, 800, -- stat7
+45, 1200, -- stat7
 47, 100, -- stat8
 0, 0, -- stat9
 0, 0, -- stat10
@@ -347,7 +347,7 @@ INSERT INTO item_template VALUES(70005, -- entry
 31, 200, -- stat4
 36, 150, -- stat5
 43, 50, -- stat6
-45, 1200, -- stat7
+45, 1800, -- stat7
 47, 100, -- stat8
 0, 0, -- stat9
 0, 0, -- stat10
@@ -411,7 +411,7 @@ INSERT INTO item_template VALUES(70006, -- entry
 31, 250, -- stat4
 36, 250, -- stat5
 43, 80, -- stat6
-45, 1600, -- stat7
+45, 2200, -- stat7
 47, 150, -- stat8
 0, 0, -- stat9
 0, 0, -- stat10
@@ -475,7 +475,7 @@ INSERT INTO item_template VALUES(70007, -- entry
 31, 300, -- stat4
 36, 300, -- stat5
 43, 100, -- stat6
-45, 2000, -- stat7
+45, 2200, -- stat7
 47, 200, -- stat8
 0, 0, -- stat9
 0, 0, -- stat10
@@ -539,7 +539,7 @@ INSERT INTO item_template VALUES(70008, -- entry
 31, 350, -- stat4
 36, 350, -- stat5
 43, 100, -- stat6
-45, 2200, -- stat7
+45, 2600, -- stat7
 47, 230, -- stat8
 0, 0, -- stat9
 0, 0, -- stat10
@@ -603,7 +603,7 @@ INSERT INTO item_template VALUES(70009, -- entry
 31, 350, -- stat4
 36, 350, -- stat5
 43, 100, -- stat6
-45, 2200, -- stat7
+45, 2600, -- stat7
 47, 230, -- stat8
 0, 0, -- stat9
 0, 0, -- stat10
@@ -667,7 +667,7 @@ INSERT INTO item_template VALUES(70010, -- entry
 31, 350, -- stat4
 36, 380, -- stat5
 43, 100, -- stat6
-45, 2400, -- stat7
+45, 2600, -- stat7
 47, 230, -- stat8
 0, 0, -- stat9
 0, 0, -- stat10
@@ -725,13 +725,13 @@ INSERT INTO item_template VALUES(70011, -- entry
 0, 0, 0, 0, -- reqhonorrank, reqcityrank, reqrepfaction, reqreprank
 0, 1, 0, -- maxcount stackable, containerslots
 8, -- statscount
-5, 1000, -- stat1
-7, 1100, -- stat2
+5, 1300, -- stat1
+7, 1600, -- stat2
 21, 400, -- stat3
 31, 350, -- stat4
 36, 380, -- stat5
 43, 100, -- stat6
-45, 2500, -- stat7
+45, 10000, -- stat7
 47, 230, -- stat8
 0, 0, -- stat9
 0, 0, -- stat10
@@ -789,20 +789,148 @@ INSERT INTO item_template VALUES(70012, -- entry
 0, 0, 0, 0, -- reqhonorrank, reqcityrank, reqrepfaction, reqreprank
 0, 1, 0, -- maxcount stackable, containerslots
 8, -- statscount
-5, 1000, -- stat1
-7, 1100, -- stat2
+5, 1400, -- stat1
+7, 1700, -- stat2
 21, 400, -- stat3
 31, 350, -- stat4
 36, 380, -- stat5
 43, 100, -- stat6
-45, 2500, -- stat7
+45, 15000, -- stat7
 47, 230, -- stat8
 0, 0, -- stat9
 0, 0, -- stat10
 0, 0, -- scalingstatdistribution, scalingstatvalue
 100, 140, 0, -- dmgMin1, DmgMax1, DmgType1
 0, 0, 0, -- dmgMin2, DmgMax2, DmgType2
-2400, -- armor
+3000, -- armor
+0, 0, 0, 0, 0, 0, -- res holy, fire, nature, frost, shadowm arcane
+3000, -- delay
+0, 0, -- ammoType, RangedModRange
+0, 0, 0, 0, -1, 0, -1, -- 1 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+0, 0, 0, 0, -1, 0, -1, -- 2 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+0, 0, 0, 0, -1, 0, -1, -- 3 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+0, 0, 0, 0, -1, 0, -1, -- 4 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+0, 0, 0, 0, -1, 0, -1, -- 5 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+1, -- bonding
+"", -- description
+0, 0, 0, -- pagetext, languageid, pagematerial
+0, 0, 2, -- startquest, lockid, material
+2, -- sheath
+0, 0, -- randomproperty, randomsuffix
+0, -- block
+0, -- itemset
+80, -- maxdurability
+0, 0, -- area, map
+0, -- bagfamily
+0, -- totemcategory
+0, 0, -- 1 socketcolor, socketcontent
+0, 0, -- 2 socketcolor, socketcontent
+0, 0, -- 3 socketcolor, socketcontent
+0, 0, -- socketbonus, gemproperties
+25, -- reqdisenchantskill
+0, -- armordamagemodifier
+0, -- duration
+0, -- itemlimitcategory
+0, -- holidayId
+"", -- scriptname
+41, -- disenchantid
+0, -- foodtype
+0, 0, -- min, maxmoneyloot
+0, -- flagscustom 
+0 -- verifiedbuild
+); 
+
+DELETE FROM item_template WHERE entry = 70013;
+INSERT INTO item_template VALUES(70013, -- entry
+2, 10, -1, "Mage lvl 60 BWL Staff", -- class, subclass, SoundOverrideSubclass, name
+20298, 4, -- displayid, quality
+0, 0, -- flags, flagsextra
+1, 100, 100, -- buycount buyprice, sellprice
+17, -- inventoryType
+128, -1, -- allowableclass, allowablerace
+60, -- itemlevel
+60, 0, 0, 0, -- reqlevel, reqskill, reqskillrank, reqspell
+0, 0, 0, 0, -- reqhonorrank, reqcityrank, reqrepfaction, reqreprank
+0, 1, 0, -- maxcount stackable, containerslots
+8, -- statscount
+5, 1600, -- stat1
+7, 1700, -- stat2
+21, 400, -- stat3
+31, 350, -- stat4
+36, 380, -- stat5
+43, 100, -- stat6
+45, 16000, -- stat7
+47, 230, -- stat8
+0, 0, -- stat9
+0, 0, -- stat10
+0, 0, -- scalingstatdistribution, scalingstatvalue
+100, 140, 0, -- dmgMin1, DmgMax1, DmgType1
+0, 0, 0, -- dmgMin2, DmgMax2, DmgType2
+3000, -- armor
+0, 0, 0, 0, 0, 0, -- res holy, fire, nature, frost, shadowm arcane
+3000, -- delay
+0, 0, -- ammoType, RangedModRange
+0, 0, 0, 0, -1, 0, -1, -- 1 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+0, 0, 0, 0, -1, 0, -1, -- 2 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+0, 0, 0, 0, -1, 0, -1, -- 3 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+0, 0, 0, 0, -1, 0, -1, -- 4 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+0, 0, 0, 0, -1, 0, -1, -- 5 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+1, -- bonding
+"", -- description
+0, 0, 0, -- pagetext, languageid, pagematerial
+0, 0, 2, -- startquest, lockid, material
+2, -- sheath
+0, 0, -- randomproperty, randomsuffix
+0, -- block
+0, -- itemset
+80, -- maxdurability
+0, 0, -- area, map
+0, -- bagfamily
+0, -- totemcategory
+0, 0, -- 1 socketcolor, socketcontent
+0, 0, -- 2 socketcolor, socketcontent
+0, 0, -- 3 socketcolor, socketcontent
+0, 0, -- socketbonus, gemproperties
+25, -- reqdisenchantskill
+0, -- armordamagemodifier
+0, -- duration
+0, -- itemlimitcategory
+0, -- holidayId
+"", -- scriptname
+41, -- disenchantid
+0, -- foodtype
+0, 0, -- min, maxmoneyloot
+0, -- flagscustom 
+0 -- verifiedbuild
+); 
+
+DELETE FROM item_template WHERE entry = 70014;
+INSERT INTO item_template VALUES(70014, -- entry
+2, 10, -1, "Mage lvl 60 AQ40 Staff", -- class, subclass, SoundOverrideSubclass, name
+20298, 4, -- displayid, quality
+0, 0, -- flags, flagsextra
+1, 100, 100, -- buycount buyprice, sellprice
+17, -- inventoryType
+128, -1, -- allowableclass, allowablerace
+60, -- itemlevel
+60, 0, 0, 0, -- reqlevel, reqskill, reqskillrank, reqspell
+0, 0, 0, 0, -- reqhonorrank, reqcityrank, reqrepfaction, reqreprank
+0, 1, 0, -- maxcount stackable, containerslots
+8, -- statscount
+5, 2500, -- stat1
+7, 2000, -- stat2
+21, 400, -- stat3
+31, 350, -- stat4
+36, 380, -- stat5
+43, 100, -- stat6
+45, 25000, -- stat7
+47, 230, -- stat8
+0, 0, -- stat9
+0, 0, -- stat10
+0, 0, -- scalingstatdistribution, scalingstatvalue
+100, 140, 0, -- dmgMin1, DmgMax1, DmgType1
+0, 0, 0, -- dmgMin2, DmgMax2, DmgType2
+6000, -- armor
 0, 0, 0, 0, 0, 0, -- res holy, fire, nature, frost, shadowm arcane
 3000, -- delay
 0, 0, -- ammoType, RangedModRange

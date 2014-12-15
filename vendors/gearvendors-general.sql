@@ -65,3 +65,14 @@ INSERT INTO npc_vendor VALUES(70000, 15, 70007, 0, 0, 0, 0); -- mage 4
 INSERT INTO npc_vendor VALUES(70000, 16, 70008, 0, 0, 0, 0); -- mage 5
 INSERT INTO npc_vendor VALUES(70000, 17, 6692, 0, 0, 0, 0); -- shaman 3
 INSERT INTO npc_vendor VALUES(70000, 18, 10623, 0, 0, 0, 0); -- shaman 4
+INSERT INTO npc_vendor VALUES(70000, 19, 11121, 0, 0, 0, 0); -- warrior 1
+INSERT INTO npc_vendor VALUES(70000, 20, 5443, 0, 0, 0, 0); -- warrior 2
+INSERT INTO npc_vendor VALUES(70000, 21, 70200, 0, 0, 0, 0); -- priest 1
+INSERT INTO npc_vendor VALUES(70000, 22, 70201, 0, 0, 0, 0); -- priest 2
+INSERT INTO npc_vendor VALUES(70000, 21, 5197, 0, 0, 0, 0); -- paladin 1
+INSERT INTO npc_vendor VALUES(70000, 22, 13245, 0, 0, 0, 0); -- paladin 2
+INSERT INTO npc_vendor VALUES(70000, 23, 70301, 0, 0, 0, 0); -- druid 2
+INSERT INTO npc_vendor VALUES(70000, 24, 70102, 0, 0, 0, 0); -- lock 3
+INSERT INTO npc_vendor VALUES(70000, 25, 2164, 0, 0, 0, 0); -- rogue 1
+INSERT INTO npc_vendor VALUES(70000, 25, 17780, 0, 0, 0, 0); -- rogue 2
+INSERT INTO npc_vendor VALUES(70000, 25, 70302, 0, 0, 0, 0); -- driud 3
