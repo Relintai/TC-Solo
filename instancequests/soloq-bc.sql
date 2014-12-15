@@ -2059,8 +2059,8 @@ INSERT INTO quest_template VALUES(
 
 DELETE FROM creature_queststarter WHERE quest = 70121;
 DELETE FROM creature_questender WHERE quest = 70121;
-INSERT INTO creature_queststarter VALUES(70001, 70121);
-INSERT INTO creature_questender VALUES(70001, 70121);
+-- INSERT INTO creature_queststarter VALUES(70001, 70121);
+-- INSERT INTO creature_questender VALUES(70001, 70121);
 
 -- CoT Hyjal(70.25)
 DELETE FROM quest_template WHERE Id = 70122;
