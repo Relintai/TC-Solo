@@ -4,7 +4,7 @@ INSERT INTO creature_template VALUES(
 0, 0, 0, -- difficulty entry 123
 0, 0, -- killcredit 1, 2
 28172, 0, 0, 0, -- modelid 1, 2, 3, 4,
-"Rogue Transmog Set Vendor", "Pure Awesomeness", -- name, subname
+"Rogue T1-T6 Transmog Sets", "Pure Awesomeness", -- name, subname
 NULL, -- iconname
 0, -- gossip menu id
 80, 80, -- minlevel, maxlevel
@@ -215,3 +215,202 @@ UPDATE item_template SET AllowableClass = -1 WHERE entry = 31026;
 UPDATE item_template SET AllowableClass = -1 WHERE entry = 34558;
 UPDATE item_template SET AllowableClass = -1 WHERE entry = 31029;
 UPDATE item_template SET AllowableClass = -1 WHERE entry = 34575;
+
+DELETE FROM creature_template WHERE entry = 70501;
+INSERT INTO creature_template VALUES(
+70501, -- entry
+0, 0, 0, -- difficulty entry 123
+0, 0, -- killcredit 1, 2
+28172, 0, 0, 0, -- modelid 1, 2, 3, 4,
+"Rogue T6+ Transmog Sets", "Pure Awesomeness", -- name, subname
+NULL, -- iconname
+0, -- gossip menu id
+80, 80, -- minlevel, maxlevel
+2, -- exp
+2006, -- faction
+4224, -- npcflag
+1, 1.14286, -- speed walk, run
+1, -- scale
+0, -- rank
+0, -- dmgsschool
+2000, 2000, -- baseattacktime, rangeattacktime
+1, 1, -- basevariance, rangevariance
+8, -- unitclass
+32768, -- unitflags
+2048, -- unitflags2
+0, -- dynamicflags
+0, -- family
+0, 0, 0, 0, -- trainer_type, trainer spell, trainer class, trainer race
+7, 0, -- type, type flags
+0, 0, 0, -- lootid, pickpocketloot, skinloot
+0, 0, 0, 0, 0, 0, -- resist 1-6
+0, 0, 0, 0, 0, 0, 0, 0, -- spell 1-8
+0, -- petspelldataid
+0, -- vehicleid
+0, 0, -- mingold maxgold
+"", -- AIName
+0, 3, 1, -- movementtype, inhabittype, hoverheight
+1, 1, 1, 1, 1, -- healthmodifier, manamodifier armormodifier, damagemodifier, experiencemodifier
+0, -- racialleader
+0, 0, 0, 0, 0, 0, -- questitem1-6
+0, -- movementid
+1, -- regenhealth
+0, -- mechanic immune mask
+0, -- flags extra
+"", -- scriptname
+0 -- verifiedbuild
+);
+
+DELETE FROM npc_vendor WHERE entry = 70501;
+
+INSERT INTO npc_vendor VALUES(70501, 1, 75009, 0, 0, 0, 0); -- T7 (10man) marker
+INSERT INTO npc_vendor VALUES(70501, 2, 39561, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 3, 39565, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 4, 39558, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 5, 39560, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 6, 39564, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 7, 39279, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 8, 39196, 0, 0, 0, 0);
+
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 39561;
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 39565;
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 39558;
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 39560;
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 39564;
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 39279;
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 39196;
+
+INSERT INTO npc_vendor VALUES(70501, 9, 75010, 0, 0, 0, 0); -- T7 (25man) marker
+INSERT INTO npc_vendor VALUES(70501, 10, 40499, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 11, 40502, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 12, 40495, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 13, 40496, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 14, 40500, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 15, 40260, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 16, 39701, 0, 0, 0, 0);
+
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 40499;
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 40502;
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 40495;
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 40496;
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 40500;
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 40260;
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 39701;
+
+INSERT INTO npc_vendor VALUES(70501, 17, 75011, 0, 0, 0, 0); -- T8 (10man) marker
+INSERT INTO npc_vendor VALUES(70501, 18, 45398, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 19, 45400, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 20, 45396, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 21, 45397, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 22, 45399, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 23, 45302, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 24, 45709, 0, 0, 0, 0);
+
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 45398;
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 45400;
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 45396;
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 45397;
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 45399;
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 45302;
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 45709;
+
+INSERT INTO npc_vendor VALUES(70501, 25, 75012, 0, 0, 0, 0); -- T8 (25man) marker
+INSERT INTO npc_vendor VALUES(70501, 26, 46125, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 27, 46127, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 28, 46123, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 29, 46124, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 30, 46126, 0, 0, 0, 0);
+
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 46125;
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 46127;
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 46123;
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 46124;
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 46126;
+
+INSERT INTO npc_vendor VALUES(70501, 31, 75013, 0, 0, 0, 0); -- T9 (Alliance) marker
+INSERT INTO npc_vendor VALUES(70501, 32, 48230, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 33, 48228, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 34, 48232, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 35, 48231, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 36, 48229, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 37, 46988, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 38, 47055, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 39, 47107, 0, 0, 0, 0);
+
+UPDATE item_template SET AllowableClass = -1, FlagsExtra = 0 WHERE entry = 48230;
+UPDATE item_template SET AllowableClass = -1, FlagsExtra = 0 WHERE entry = 48228;
+UPDATE item_template SET AllowableClass = -1, FlagsExtra = 0 WHERE entry = 48232;
+UPDATE item_template SET AllowableClass = -1, FlagsExtra = 0 WHERE entry = 48231;
+UPDATE item_template SET AllowableClass = -1, FlagsExtra = 0 WHERE entry = 48229;
+UPDATE item_template SET AllowableClass = -1, FlagsExtra = 0 WHERE entry = 46988;
+UPDATE item_template SET AllowableClass = -1, FlagsExtra = 0 WHERE entry = 47055;
+UPDATE item_template SET AllowableClass = -1, FlagsExtra = 0 WHERE entry = 47107;
+
+INSERT INTO npc_vendor VALUES(70501, 40, 75014, 0, 0, 0, 0); -- T9 (Horde) marker
+INSERT INTO npc_vendor VALUES(70501, 41, 48235, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 42, 48237, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 43, 48233, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 44, 48234, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 45, 48236, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 46, 47853, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 47, 47863, 0, 0, 0, 0);
+
+UPDATE item_template SET AllowableClass = -1, FlagsExtra = 0 WHERE entry = 48235;
+UPDATE item_template SET AllowableClass = -1, FlagsExtra = 0 WHERE entry = 48237;
+UPDATE item_template SET AllowableClass = -1, FlagsExtra = 0 WHERE entry = 48233;
+UPDATE item_template SET AllowableClass = -1, FlagsExtra = 0 WHERE entry = 48234;
+UPDATE item_template SET AllowableClass = -1, FlagsExtra = 0 WHERE entry = 48236;
+UPDATE item_template SET AllowableClass = -1, FlagsExtra = 0 WHERE entry = 47853;
+UPDATE item_template SET AllowableClass = -1, FlagsExtra = 0 WHERE entry = 47863;
+
+-- remove extendedcost from normal t10? Its not needed
+INSERT INTO npc_vendor VALUES(70501, 48, 75015, 0, 0, 0, 0); -- T10 marker
+INSERT INTO npc_vendor VALUES(70501, 49, 50089, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 50, 50105, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 51, 50087, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 52, 50088, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 53, 50090, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 54, 50778, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 55, 51023, 0, 0, 0, 0);
+
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 50089;
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 50105;
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 50087;
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 50088;
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 50090;
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 50778;
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 51023;
+
+INSERT INTO npc_vendor VALUES(70501, 56, 75016, 0, 0, 0, 0); -- T10 (Sanctified) marker
+INSERT INTO npc_vendor VALUES(70501, 57, 51187, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 58, 51185, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 59, 51189, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 60, 51188, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 61, 51186, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 62, 51925, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 63, 51856, 0, 0, 0, 0);
+
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 51187;
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 51185;
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 51189;
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 51188;
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 51186;
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 51925;
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 51856;
+
+INSERT INTO npc_vendor VALUES(70501, 64, 75017, 0, 0, 0, 0); -- T10 (Sanctified, Heroic) marker
+INSERT INTO npc_vendor VALUES(70501, 65, 51252, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 66, 51254, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 67, 51250, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 68, 51251, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 69, 51253, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 70, 50607, 0, 0, 0, 0);
+INSERT INTO npc_vendor VALUES(70501, 71, 50707, 0, 0, 0, 0);
+
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 51252;
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 51254;
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 51250;
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 51251;
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 51253;
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 50607;
+UPDATE item_template SET AllowableClass = -1 WHERE entry = 50707;
