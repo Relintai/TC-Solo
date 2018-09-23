@@ -1,0 +1,35 @@
+Mall npcs start from 70700
+Glyph Vendors 70700-70709
+
+retail npcs:
+Alliance:
+Weptrainers: 11867, 11866, 11865, 13084, 16773
+
+Trainers:
+918 Rogue
+331 Mage
+4218 Druid
+4146 Hunter
+928 Paladin
+376 Priest
+5479 Warrior
+17520 Shaman
+5495 Warlock
+
+
+Horde:
+
+
+Both:
+.npc add 31238 (Hira SnowDawn)
+.npc add 32216 (Mel Francis)
+
+-
+70600 (ClassQ)
+99990 (BeastMaster)
+70700-70709 Glyphs
+70500+ Tmogs
+100067 - enchants
+190010 - Tmog guy
+70001 Hyaleth
+70000 Borrhus

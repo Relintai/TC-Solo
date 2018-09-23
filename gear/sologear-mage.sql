@@ -475,7 +475,7 @@ INSERT INTO item_template VALUES(70007, -- entry
 31, 300, -- stat4
 36, 300, -- stat5
 43, 100, -- stat6
-45, 2200, -- stat7
+45, 4000, -- stat7
 47, 200, -- stat8
 0, 0, -- stat9
 0, 0, -- stat10
@@ -539,7 +539,7 @@ INSERT INTO item_template VALUES(70008, -- entry
 31, 350, -- stat4
 36, 350, -- stat5
 43, 100, -- stat6
-45, 2600, -- stat7
+45, 5000, -- stat7
 47, 230, -- stat8
 0, 0, -- stat9
 0, 0, -- stat10
@@ -603,7 +603,7 @@ INSERT INTO item_template VALUES(70009, -- entry
 31, 350, -- stat4
 36, 350, -- stat5
 43, 100, -- stat6
-45, 2600, -- stat7
+45, 6000, -- stat7
 47, 230, -- stat8
 0, 0, -- stat9
 0, 0, -- stat10
@@ -667,7 +667,7 @@ INSERT INTO item_template VALUES(70010, -- entry
 31, 350, -- stat4
 36, 380, -- stat5
 43, 100, -- stat6
-45, 2600, -- stat7
+45, 8000, -- stat7
 47, 230, -- stat8
 0, 0, -- stat9
 0, 0, -- stat10

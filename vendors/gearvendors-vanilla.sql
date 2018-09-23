@@ -52,6 +52,7 @@ INSERT INTO npc_vendor VALUES(70002, 0, 70009, 0, 0, 0, 0); -- mage (10man lvl 6
 INSERT INTO npc_vendor VALUES(70002, 0, 18498, 0, 0, 0, 0); -- shaman (10man lvl 60)
 INSERT INTO npc_vendor VALUES(70002, 0, 14555, 0, 0, 0, 0); -- rogue (10man lvl 60)
 INSERT INTO npc_vendor VALUES(70002, 0, 70303, 0, 0, 0, 0); -- druid (10man lvl 60)
+INSERT INTO npc_vendor VALUES(70002, 0, 70103, 0, 0, 0, 0); -- warlock (10man lvl 60)
 
 DELETE FROM creature WHERE id = 70002;
 INSERT INTO creature VALUES(default, -- guid
@@ -120,6 +121,7 @@ INSERT INTO npc_vendor VALUES(70003, 0, 70010, 0, 0, 0, 0); -- mage (For ZG lvl 
 INSERT INTO npc_vendor VALUES(70003, 0, 12621, 0, 0, 0, 0); -- Shaman (For ZG lvl 60)
 INSERT INTO npc_vendor VALUES(70003, 0, 12590, 0, 0, 0, 0); -- Rogue (For ZG lvl 60)
 INSERT INTO npc_vendor VALUES(70003, 0, 70304, 0, 0, 0, 0); -- Druid (For ZG lvl 60)
+INSERT INTO npc_vendor VALUES(70003, 0, 70104, 0, 0, 0, 0); -- Warlock (For ZG lvl 60)
 
 DELETE FROM creature WHERE id = 70003;
 INSERT INTO creature VALUES(default, -- guid
@@ -187,6 +189,7 @@ INSERT INTO npc_vendor VALUES(70004, 0, 70011, 0, 0, 0, 0); -- mage (For AQ20 lv
 INSERT INTO npc_vendor VALUES(70004, 0, 21242, 0, 0, 0, 0); -- Shaman (For AQ20 lvl 60)
 INSERT INTO npc_vendor VALUES(70004, 0, 19903, 0, 0, 0, 0); -- Rogue (For AQ20 lvl 60)
 INSERT INTO npc_vendor VALUES(70004, 0, 70305, 0, 0, 0, 0); -- Druid (For AQ20 lvl 60)
+INSERT INTO npc_vendor VALUES(70004, 0, 70105, 0, 0, 0, 0); -- Warlock (For AQ20 lvl 60)
 
 DELETE FROM creature WHERE id = 70004;
 INSERT INTO creature VALUES(default, -- guid
@@ -254,6 +257,7 @@ INSERT INTO npc_vendor VALUES(70005, 0, 19852, 0, 0, 0, 0); -- shaman (MC lvl 60
 INSERT INTO npc_vendor VALUES(70005, 0, 19324, 0, 0, 0, 0); -- rogue (MC lvl 60)
 INSERT INTO npc_vendor VALUES(70005, 0, 70012, 0, 0, 0, 0); -- Mage (MC lvl 60)
 INSERT INTO npc_vendor VALUES(70005, 0, 70306, 0, 0, 0, 0); -- Druid (MC lvl 60)
+INSERT INTO npc_vendor VALUES(70005, 0, 70106, 0, 0, 0, 0); -- Druid (MC lvl 60)
 
 DELETE FROM creature WHERE id = 70005;
 INSERT INTO creature VALUES(default, -- guid
@@ -321,6 +325,7 @@ INSERT INTO npc_vendor VALUES(70006, 0, 19363, 0, 0, 0, 0); -- shaman (BWL lvl 6
 INSERT INTO npc_vendor VALUES(70006, 0, 19166, 0, 0, 0, 0); -- rogue (BWL lvl 60)
 INSERT INTO npc_vendor VALUES(70006, 0, 70013, 0, 0, 0, 0); -- Mage (BWL lvl 60)
 INSERT INTO npc_vendor VALUES(70006, 0, 70307, 0, 0, 0, 0); -- Druid (BWL lvl 60)
+INSERT INTO npc_vendor VALUES(70006, 0, 70107, 0, 0, 0, 0); -- Warlock (BWL lvl 60)
 
 DELETE FROM creature WHERE id = 70006;
 INSERT INTO creature VALUES(default, -- guid
@@ -388,6 +393,7 @@ DELETE FROM npc_vendor WHERE entry = 70007;
 INSERT INTO npc_vendor VALUES(70007, 0, 22816, 0, 0, 0, 0); -- shaman (AQ40 lvl 60)
 INSERT INTO npc_vendor VALUES(70007, 0, 70014, 0, 0, 0, 0); -- mage (AQ40 lvl 60)
 INSERT INTO npc_vendor VALUES(70007, 0, 70308, 0, 0, 0, 0); -- Druid (AQ40 lvl 60)
+INSERT INTO npc_vendor VALUES(70007, 0, 70108, 0, 0, 0, 0); -- Warlock (AQ40 lvl 60)
 
 DELETE FROM creature WHERE id = 70007;
 INSERT INTO creature VALUES(default, -- guid

@@ -47,6 +47,8 @@ NULL, -- iconname
 DELETE FROM npc_vendor WHERE entry = 70020;
 
 INSERT INTO npc_vendor VALUES(70020, 0, 70309, 0, 0, 0, 0); -- druid (ZA lvl 70)
+INSERT INTO npc_vendor VALUES(70020, 1, 70110, 0, 0, 0, 0); -- Warlock (ZA lvl 70)
+INSERT INTO npc_vendor VALUES(70020, 2, 27424, 0, 0, 0, 0); -- Shaman (ZA lvl 70)
 
 DELETE FROM creature WHERE id = 70020;
 INSERT INTO creature VALUES(default, -- guid
@@ -111,6 +113,8 @@ NULL, -- iconname
 DELETE FROM npc_vendor WHERE entry = 70021;
 
 INSERT INTO npc_vendor VALUES(70021, 0, 70310, 0, 0, 0, 0); -- druid (Gruul, Magtheridon lvl 70)
+INSERT INTO npc_vendor VALUES(70021, 0, 70111, 0, 0, 0, 0); -- Warlock (Gruul, Magtheridon lvl 70)
+INSERT INTO npc_vendor VALUES(70021, 0, 70400, 0, 0, 0, 0); -- Shaman (Gruul, Magtheridon lvl 70)
 
 DELETE FROM creature WHERE id = 70021;
 INSERT INTO creature VALUES(default, -- guid
@@ -175,7 +179,9 @@ NULL, -- iconname
 
 DELETE FROM npc_vendor WHERE entry = 70022;
 
-INSERT INTO npc_vendor VALUES(70022, 0, 70311, 0, 0, 0, 0); -- druid (Gruul, Magtheridon lvl 70)
+INSERT INTO npc_vendor VALUES(70022, 0, 70311, 0, 0, 0, 0); -- druid (Hyjal lvl 70)
+INSERT INTO npc_vendor VALUES(70022, 0, 70112, 0, 0, 0, 0); -- Warlock (Hyjal lvl 70)
+INSERT INTO npc_vendor VALUES(70022, 0, 70401, 0, 0, 0, 0); -- Shaman (Hyjal lvl 70)
 
 DELETE FROM creature WHERE id = 70022;
 INSERT INTO creature VALUES(default, -- guid
@@ -240,6 +246,7 @@ NULL, -- iconname
 DELETE FROM npc_vendor WHERE entry = 70023;
 
 INSERT INTO npc_vendor VALUES(70023, 0, 70312, 0, 0, 0, 0); -- druid (SSC lvl 70)
+INSERT INTO npc_vendor VALUES(70023, 0, 70113, 0, 0, 0, 0); -- warlock (SSC lvl 70)
 
 DELETE FROM creature WHERE id = 70023;
 INSERT INTO creature VALUES(default, -- guid
@@ -304,6 +311,7 @@ NULL, -- iconname
 DELETE FROM npc_vendor WHERE entry = 70024;
 
 INSERT INTO npc_vendor VALUES(70024, 0, 70313, 0, 0, 0, 0); -- druid (The Eye lvl 70)
+INSERT INTO npc_vendor VALUES(70024, 0, 70114, 0, 0, 0, 0); -- Warlock (The Eye lvl 70)
 
 /*
 DELETE FROM creature WHERE id = 70024;
@@ -369,6 +377,7 @@ NULL, -- iconname
 DELETE FROM npc_vendor WHERE entry = 70025;
 
 INSERT INTO npc_vendor VALUES(70025, 0, 70314, 0, 0, 0, 0); -- druid (BT lvl 70)
+INSERT INTO npc_vendor VALUES(70025, 0, 70115, 0, 0, 0, 0); -- Warlock (BT lvl 70)
 
 /*
 DELETE FROM creature WHERE id = 70025;
@@ -434,6 +443,7 @@ NULL, -- iconname
 DELETE FROM npc_vendor WHERE entry = 70026;
 
 INSERT INTO npc_vendor VALUES(70026, 0, 70315, 0, 0, 0, 0); -- druid (Sunwell lvl 70)
+INSERT INTO npc_vendor VALUES(70026, 0, 70116, 0, 0, 0, 0); -- Warlock (Sunwell lvl 70)
 
 /*
 DELETE FROM creature WHERE id = 70026;

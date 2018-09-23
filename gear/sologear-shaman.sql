@@ -648,3 +648,452 @@ INSERT INTO item_template VALUES(22816, -- entry
 0, -- flagscustom 
 0 -- verifiedbuild
 ); 
+
+-- shaman 1h lvl70 Axe
+DELETE FROM item_template WHERE entry = 27424;
+INSERT INTO item_template VALUES(27424, -- entry
+2, 0, -1, "Shaman 1h lvl70 Axe", -- class, subclass, SoundOverrideSubclass, name
+38797, 4, -- displayid, quality
+0, 0, -- flags, flagsextra
+1, 100, 100, -- buycount buyprice, sellprice
+13, -- inventoryType
+64, -1, -- allowableclass, allowablerace
+70, -- itemlevel
+70, 0, 0, 0, -- reqlevel, reqskill, reqskillrank, reqspell
+0, 0, 0, 0, -- reqhonorrank, reqcityrank, reqrepfaction, reqreprank
+0, 1, 0, -- maxcount stackable, containerslots
+10, -- statscount
+3, 1400, -- stat1
+5, 700, -- stat2
+7, 1500, -- stat3
+31, 300, -- stat4
+32, 300, -- stat5
+36, 380, -- stat6
+38, 6000, -- stat7
+44, 800, -- stat8
+45, 6000, -- stat9
+47, 600, -- stat10
+0, 0, -- scalingstatdistribution, scalingstatvalue
+4000, 4100, 0, -- dmgMin1, DmgMax1, DmgType1
+0, 0, 0, -- dmgMin2, DmgMax2, DmgType2
+24000, -- armor
+0, 0, 0, 0, 0, 0, -- res holy, fire, nature, frost, shadowm arcane
+2600, -- delay
+0, 0, -- ammoType, RangedModRange
+0, 0, 0, 0, -1, 0, -1, -- 1 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+0, 0, 0, 0, -1, 0, -1, -- 2 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+0, 0, 0, 0, -1, 0, -1, -- 3 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+0, 0, 0, 0, -1, 0, -1, -- 4 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+0, 0, 0, 0, -1, 0, -1, -- 5 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+1, -- bonding
+"", -- description
+0, 0, 0, -- pagetext, languageid, pagematerial
+0, 0, 1, -- startquest, lockid, material
+3, -- sheath
+0, 0, -- randomproperty, randomsuffix
+0, -- block
+0, -- itemset
+80, -- maxdurability
+0, 0, -- area, map
+0, -- bagfamily
+0, -- totemcategory
+0, 0, -- 1 socketcolor, socketcontent
+0, 0, -- 2 socketcolor, socketcontent
+0, 0, -- 3 socketcolor, socketcontent
+0, 0, -- socketbonus, gemproperties
+25, -- reqdisenchantskill
+0, -- armordamagemodifier
+0, -- duration
+0, -- itemlimitcategory
+0, -- holidayId
+"", -- scriptname
+41, -- disenchantid
+0, -- foodtype
+0, 0, -- min, maxmoneyloot
+0, -- flagscustom 
+0 -- verifiedbuild
+); 
+
+DELETE FROM item_template WHERE entry = 70400;
+INSERT INTO item_template VALUES(70400, -- entry
+4, 0, -1, "Shaman Gruul Necklace", -- class, subclass, SoundOverrideSubclass, name
+6484, 4, -- displayid, quality
+0, 0, -- flags, flagsextra
+1, 100, 100, -- buycount buyprice, sellprice
+2, -- inventoryType
+64, -1, -- allowableclass, allowablerace
+70, -- itemlevel
+70, 0, 0, 0, -- reqlevel, reqskill, reqskillrank, reqspell
+0, 0, 0, 0, -- reqhonorrank, reqcityrank, reqrepfaction, reqreprank
+0, 1, 0, -- maxcount stackable, containerslots
+10, -- statscount
+3, 500, -- stat1
+5, 100, -- stat2
+7, 200, -- stat3
+31, 100, -- stat4
+32, 100, -- stat5
+36, 100, -- stat6
+38, 5000, -- stat7
+44, 100, -- stat8
+45, 1000, -- stat9
+47, 100, -- stat10
+0, 0, -- scalingstatdistribution, scalingstatvalue
+0, 0, 0, -- dmgMin1, DmgMax1, DmgType1
+0, 0, 0, -- dmgMin2, DmgMax2, DmgType2
+1000, -- armor
+0, 0, 0, 0, 0, 0, -- res holy, fire, nature, frost, shadowm arcane
+0, -- delay
+0, 0, -- ammoType, RangedModRange
+0, 0, 0, 0, -1, 0, -1, -- 1 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+0, 0, 0, 0, -1, 0, -1, -- 2 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+0, 0, 0, 0, -1, 0, -1, -- 3 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+0, 0, 0, 0, -1, 0, -1, -- 4 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+0, 0, 0, 0, -1, 0, -1, -- 5 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+1, -- bonding
+"", -- description
+0, 0, 0, -- pagetext, languageid, pagematerial
+0, 0, -1, -- startquest, lockid, material
+0, -- sheath
+0, 0, -- randomproperty, randomsuffix
+0, -- block
+0, -- itemset
+0, -- maxdurability
+0, 0, -- area, map
+0, -- bagfamily
+0, -- totemcategory
+0, 0, -- 1 socketcolor, socketcontent
+0, 0, -- 2 socketcolor, socketcontent
+0, 0, -- 3 socketcolor, socketcontent
+0, 0, -- socketbonus, gemproperties
+25, -- reqdisenchantskill
+0, -- armordamagemodifier
+0, -- duration
+0, -- itemlimitcategory
+0, -- holidayId
+"", -- scriptname
+41, -- disenchantid
+0, -- foodtype
+0, 0, -- min, maxmoneyloot
+0, -- flagscustom 
+0 -- verifiedbuild
+); 
+
+DELETE FROM item_template WHERE entry = 70401;
+INSERT INTO item_template VALUES(70401, -- entry
+4, 0, -1, "Shaman Hyjal Necklace", -- class, subclass, SoundOverrideSubclass, name
+6484, 4, -- displayid, quality
+0, 0, -- flags, flagsextra
+1, 100, 100, -- buycount buyprice, sellprice
+2, -- inventoryType
+64, -1, -- allowableclass, allowablerace
+70, -- itemlevel
+70, 0, 0, 0, -- reqlevel, reqskill, reqskillrank, reqspell
+0, 0, 0, 0, -- reqhonorrank, reqcityrank, reqrepfaction, reqreprank
+0, 1, 0, -- maxcount stackable, containerslots
+10, -- statscount
+3, 500, -- stat1
+5, 100, -- stat2
+7, 200, -- stat3
+31, 100, -- stat4
+32, 100, -- stat5
+36, 100, -- stat6
+38, 10000, -- stat7
+44, 100, -- stat8
+45, 4000, -- stat9
+47, 100, -- stat10
+0, 0, -- scalingstatdistribution, scalingstatvalue
+0, 0, 0, -- dmgMin1, DmgMax1, DmgType1
+0, 0, 0, -- dmgMin2, DmgMax2, DmgType2
+1000, -- armor
+0, 0, 0, 0, 0, 0, -- res holy, fire, nature, frost, shadowm arcane
+0, -- delay
+0, 0, -- ammoType, RangedModRange
+0, 0, 0, 0, -1, 0, -1, -- 1 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+0, 0, 0, 0, -1, 0, -1, -- 2 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+0, 0, 0, 0, -1, 0, -1, -- 3 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+0, 0, 0, 0, -1, 0, -1, -- 4 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+0, 0, 0, 0, -1, 0, -1, -- 5 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+1, -- bonding
+"", -- description
+0, 0, 0, -- pagetext, languageid, pagematerial
+0, 0, -1, -- startquest, lockid, material
+0, -- sheath
+0, 0, -- randomproperty, randomsuffix
+0, -- block
+0, -- itemset
+0, -- maxdurability
+0, 0, -- area, map
+0, -- bagfamily
+0, -- totemcategory
+0, 0, -- 1 socketcolor, socketcontent
+0, 0, -- 2 socketcolor, socketcontent
+0, 0, -- 3 socketcolor, socketcontent
+0, 0, -- socketbonus, gemproperties
+25, -- reqdisenchantskill
+0, -- armordamagemodifier
+0, -- duration
+0, -- itemlimitcategory
+0, -- holidayId
+"", -- scriptname
+41, -- disenchantid
+0, -- foodtype
+0, 0, -- min, maxmoneyloot
+0, -- flagscustom 
+0 -- verifiedbuild
+); 
+
+DELETE FROM item_template WHERE entry = 70402;
+INSERT INTO item_template VALUES(70402, -- entry
+4, 0, -1, "Shaman SSC Necklace", -- class, subclass, SoundOverrideSubclass, name
+6484, 4, -- displayid, quality
+0, 0, -- flags, flagsextra
+1, 100, 100, -- buycount buyprice, sellprice
+2, -- inventoryType
+64, -1, -- allowableclass, allowablerace
+70, -- itemlevel
+70, 0, 0, 0, -- reqlevel, reqskill, reqskillrank, reqspell
+0, 0, 0, 0, -- reqhonorrank, reqcityrank, reqrepfaction, reqreprank
+0, 1, 0, -- maxcount stackable, containerslots
+10, -- statscount
+3, 1000, -- stat1
+5, 100, -- stat2
+7, 500, -- stat3
+31, 100, -- stat4
+32, 100, -- stat5
+36, 100, -- stat6
+38, 12000, -- stat7
+44, 100, -- stat8
+45, 4500, -- stat9
+47, 100, -- stat10
+0, 0, -- scalingstatdistribution, scalingstatvalue
+0, 0, 0, -- dmgMin1, DmgMax1, DmgType1
+0, 0, 0, -- dmgMin2, DmgMax2, DmgType2
+1000, -- armor
+0, 0, 0, 0, 0, 0, -- res holy, fire, nature, frost, shadowm arcane
+0, -- delay
+0, 0, -- ammoType, RangedModRange
+0, 0, 0, 0, -1, 0, -1, -- 1 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+0, 0, 0, 0, -1, 0, -1, -- 2 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+0, 0, 0, 0, -1, 0, -1, -- 3 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+0, 0, 0, 0, -1, 0, -1, -- 4 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+0, 0, 0, 0, -1, 0, -1, -- 5 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+1, -- bonding
+"", -- description
+0, 0, 0, -- pagetext, languageid, pagematerial
+0, 0, -1, -- startquest, lockid, material
+0, -- sheath
+0, 0, -- randomproperty, randomsuffix
+0, -- block
+0, -- itemset
+0, -- maxdurability
+0, 0, -- area, map
+0, -- bagfamily
+0, -- totemcategory
+0, 0, -- 1 socketcolor, socketcontent
+0, 0, -- 2 socketcolor, socketcontent
+0, 0, -- 3 socketcolor, socketcontent
+0, 0, -- socketbonus, gemproperties
+25, -- reqdisenchantskill
+0, -- armordamagemodifier
+0, -- duration
+0, -- itemlimitcategory
+0, -- holidayId
+"", -- scriptname
+41, -- disenchantid
+0, -- foodtype
+0, 0, -- min, maxmoneyloot
+0, -- flagscustom 
+0 -- verifiedbuild
+); 
+
+DELETE FROM item_template WHERE entry = 70403;
+INSERT INTO item_template VALUES(70403, -- entry
+4, 0, -1, "Shaman The Eye Necklace", -- class, subclass, SoundOverrideSubclass, name
+6484, 4, -- displayid, quality
+0, 0, -- flags, flagsextra
+1, 100, 100, -- buycount buyprice, sellprice
+2, -- inventoryType
+64, -1, -- allowableclass, allowablerace
+70, -- itemlevel
+70, 0, 0, 0, -- reqlevel, reqskill, reqskillrank, reqspell
+0, 0, 0, 0, -- reqhonorrank, reqcityrank, reqrepfaction, reqreprank
+0, 1, 0, -- maxcount stackable, containerslots
+10, -- statscount
+3, 1400, -- stat1
+5, 150, -- stat2
+7, 1000, -- stat3
+31, 100, -- stat4
+32, 100, -- stat5
+36, 100, -- stat6
+38, 15000, -- stat7
+44, 100, -- stat8
+45, 5000, -- stat9
+47, 100, -- stat10
+0, 0, -- scalingstatdistribution, scalingstatvalue
+0, 0, 0, -- dmgMin1, DmgMax1, DmgType1
+0, 0, 0, -- dmgMin2, DmgMax2, DmgType2
+1000, -- armor
+0, 0, 0, 0, 0, 0, -- res holy, fire, nature, frost, shadowm arcane
+0, -- delay
+0, 0, -- ammoType, RangedModRange
+0, 0, 0, 0, -1, 0, -1, -- 1 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+0, 0, 0, 0, -1, 0, -1, -- 2 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+0, 0, 0, 0, -1, 0, -1, -- 3 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+0, 0, 0, 0, -1, 0, -1, -- 4 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+0, 0, 0, 0, -1, 0, -1, -- 5 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+1, -- bonding
+"", -- description
+0, 0, 0, -- pagetext, languageid, pagematerial
+0, 0, -1, -- startquest, lockid, material
+0, -- sheath
+0, 0, -- randomproperty, randomsuffix
+0, -- block
+0, -- itemset
+0, -- maxdurability
+0, 0, -- area, map
+0, -- bagfamily
+0, -- totemcategory
+0, 0, -- 1 socketcolor, socketcontent
+0, 0, -- 2 socketcolor, socketcontent
+0, 0, -- 3 socketcolor, socketcontent
+0, 0, -- socketbonus, gemproperties
+25, -- reqdisenchantskill
+0, -- armordamagemodifier
+0, -- duration
+0, -- itemlimitcategory
+0, -- holidayId
+"", -- scriptname
+41, -- disenchantid
+0, -- foodtype
+0, 0, -- min, maxmoneyloot
+0, -- flagscustom 
+0 -- verifiedbuild
+); 
+
+DELETE FROM item_template WHERE entry = 70404;
+INSERT INTO item_template VALUES(70404, -- entry
+4, 0, -1, "Shaman BT Necklace", -- class, subclass, SoundOverrideSubclass, name
+6484, 4, -- displayid, quality
+0, 0, -- flags, flagsextra
+1, 100, 100, -- buycount buyprice, sellprice
+2, -- inventoryType
+64, -1, -- allowableclass, allowablerace
+70, -- itemlevel
+70, 0, 0, 0, -- reqlevel, reqskill, reqskillrank, reqspell
+0, 0, 0, 0, -- reqhonorrank, reqcityrank, reqrepfaction, reqreprank
+0, 1, 0, -- maxcount stackable, containerslots
+10, -- statscount
+3, 1600, -- stat1
+5, 150, -- stat2
+7, 1400, -- stat3
+31, 100, -- stat4
+32, 100, -- stat5
+36, 100, -- stat6
+38, 18000, -- stat7
+44, 100, -- stat8
+45, 6000, -- stat9
+47, 100, -- stat10
+0, 0, -- scalingstatdistribution, scalingstatvalue
+0, 0, 0, -- dmgMin1, DmgMax1, DmgType1
+0, 0, 0, -- dmgMin2, DmgMax2, DmgType2
+1000, -- armor
+0, 0, 0, 0, 0, 0, -- res holy, fire, nature, frost, shadowm arcane
+0, -- delay
+0, 0, -- ammoType, RangedModRange
+0, 0, 0, 0, -1, 0, -1, -- 1 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+0, 0, 0, 0, -1, 0, -1, -- 2 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+0, 0, 0, 0, -1, 0, -1, -- 3 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+0, 0, 0, 0, -1, 0, -1, -- 4 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+0, 0, 0, 0, -1, 0, -1, -- 5 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+1, -- bonding
+"", -- description
+0, 0, 0, -- pagetext, languageid, pagematerial
+0, 0, -1, -- startquest, lockid, material
+0, -- sheath
+0, 0, -- randomproperty, randomsuffix
+0, -- block
+0, -- itemset
+0, -- maxdurability
+0, 0, -- area, map
+0, -- bagfamily
+0, -- totemcategory
+0, 0, -- 1 socketcolor, socketcontent
+0, 0, -- 2 socketcolor, socketcontent
+0, 0, -- 3 socketcolor, socketcontent
+0, 0, -- socketbonus, gemproperties
+25, -- reqdisenchantskill
+0, -- armordamagemodifier
+0, -- duration
+0, -- itemlimitcategory
+0, -- holidayId
+"", -- scriptname
+41, -- disenchantid
+0, -- foodtype
+0, 0, -- min, maxmoneyloot
+0, -- flagscustom 
+0 -- verifiedbuild
+); 
+
+DELETE FROM item_template WHERE entry = 70404;
+INSERT INTO item_template VALUES(70404, -- entry
+4, 0, -1, "Shaman Sunwell Plateau Necklace", -- class, subclass, SoundOverrideSubclass, name
+6484, 4, -- displayid, quality
+0, 0, -- flags, flagsextra
+1, 100, 100, -- buycount buyprice, sellprice
+2, -- inventoryType
+64, -1, -- allowableclass, allowablerace
+70, -- itemlevel
+70, 0, 0, 0, -- reqlevel, reqskill, reqskillrank, reqspell
+0, 0, 0, 0, -- reqhonorrank, reqcityrank, reqrepfaction, reqreprank
+0, 1, 0, -- maxcount stackable, containerslots
+10, -- statscount
+3, 2000, -- stat1
+5, 200, -- stat2
+7, 2000, -- stat3
+31, 100, -- stat4
+32, 100, -- stat5
+36, 100, -- stat6
+38, 20000, -- stat7
+44, 100, -- stat8
+45, 7000, -- stat9
+47, 100, -- stat10
+0, 0, -- scalingstatdistribution, scalingstatvalue
+0, 0, 0, -- dmgMin1, DmgMax1, DmgType1
+0, 0, 0, -- dmgMin2, DmgMax2, DmgType2
+1000, -- armor
+0, 0, 0, 0, 0, 0, -- res holy, fire, nature, frost, shadowm arcane
+0, -- delay
+0, 0, -- ammoType, RangedModRange
+0, 0, 0, 0, -1, 0, -1, -- 1 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+0, 0, 0, 0, -1, 0, -1, -- 2 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+0, 0, 0, 0, -1, 0, -1, -- 3 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+0, 0, 0, 0, -1, 0, -1, -- 4 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+0, 0, 0, 0, -1, 0, -1, -- 5 spellId, trigger, charges, ppmrate, cooldown, category, categcooldown
+1, -- bonding
+"", -- description
+0, 0, 0, -- pagetext, languageid, pagematerial
+0, 0, -1, -- startquest, lockid, material
+0, -- sheath
+0, 0, -- randomproperty, randomsuffix
+0, -- block
+0, -- itemset
+0, -- maxdurability
+0, 0, -- area, map
+0, -- bagfamily
+0, -- totemcategory
+0, 0, -- 1 socketcolor, socketcontent
+0, 0, -- 2 socketcolor, socketcontent
+0, 0, -- 3 socketcolor, socketcontent
+0, 0, -- socketbonus, gemproperties
+25, -- reqdisenchantskill
+0, -- armordamagemodifier
+0, -- duration
+0, -- itemlimitcategory
+0, -- holidayId
+"", -- scriptname
+41, -- disenchantid
+0, -- foodtype
+0, 0, -- min, maxmoneyloot
+0, -- flagscustom 
+0 -- verifiedbuild
+); 

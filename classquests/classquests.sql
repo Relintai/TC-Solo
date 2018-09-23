@@ -339,3 +339,182 @@ DELETE FROM creature_queststarter WHERE quest = 70604;
 DELETE FROM creature_questender WHERE quest = 70604;
 INSERT INTO creature_queststarter VALUES(70600, 70604);
 INSERT INTO creature_questender VALUES(70600, 70604);
+
+-- Warlock
+
+DELETE FROM quest_template WHERE Id = 70605;
+INSERT INTO quest_template VALUES(
+70605, -- Id
+2, -- Method
+15, 0, 0, -- level, minlevel, maxlevel
+0,  -- ZoneorSort
+0, -- type
+0, -- suggestedPlayers
+0, -- limittime
+256, 0, 0, 0, -- req class, race, skillis, skillpoints
+0, 0, 0, 0, -- req faction id 1, 2, value 1, 2
+0, 0, 0, 0, -- reqminrepfaction, maxrep, minrepvalue, maxrepval
+0, 0, 0, 0, -- prevq, nextq, exclusivegroup, nextquestidchain
+0, 0, 0, -- rewardxpid, rewardorreqmoney, rewardmoneymaxlevel
+697, 11520, -- rewardspell, rewardspellcast
+0, 0, -- rewardhonor, rewardhonormultiplier
+0, 0, -- rewardmailtemplateid, rewardmaildelay
+0, 0, 0, -- sourceitemid, sourceitemcount, sourcespellid
+0, 0, -- flags, specialflags
+0, -- rewardtitleid
+0, -- requiredplayerkills
+0, -- rewardtalents
+0, -- rewardarenapoints
+0, 0, 0, 0, -- rewarditemId 1-4
+0, 0, 0, 0, -- rewarditemcount 1-4
+0, 0, 0, 0, 0, 0, -- rewardchoiceitemid 1-6
+0, 0, 0, 0, 0, 0, -- rewardchoiceitemcount 1-6
+0, 0, 0, 0, 0, -- rewardfactionid 1-5
+0, 0, 0, 0, 0, -- rewardfactionvalue 1-5
+0, 0, 0, 0, 0, -- rewardfactionvalueidoverride 1-5
+0, 0, 0, 0, -- pointmapid, pointx, pointy, pointoption
+"Warlock - Summon Voidwalker", -- title
+"Complete this quest.", -- Objectives
+"It's dangerous to go alone, take these.", -- details
+"", -- EndText
+"", -- Offerrewardtext
+"", -- requestItemsText
+"", -- CompletedText
+0, 0, 0, 0, -- requiredNpcOrGo 1-4
+0, 0, 0, 0, -- requiredNpcOrGoCount 1-4
+0, 0, 0, 0, -- requiredSourceItemId 1-4
+0, 0, 0, 0, -- requiredSourceItemCount 1-4
+0, 0, 0, 0, 0, 0, -- requiredItemId 1-6
+0, 0, 0, 0, 0, 0, -- requiredItemCount 1-6
+1, -- unknown0
+"", "", "", "", -- ObjectiveText 1-4
+1, 0, 0, 0, -- DetailsEmote 1-4
+1, 0, 0, 0, -- DetailsEmoteDelay 1-4
+0, 1, -- EmoteonIncomplete, EmoteonComplete
+0, 0, 0, 0, -- offerRewardEmote 1-4
+0, 0, 0, 0, -- offerRewardEmoteDelay 1-4
+0 -- VerifiedBuild
+);
+
+DELETE FROM creature_queststarter WHERE quest = 70605;
+DELETE FROM creature_questender WHERE quest = 70605;
+INSERT INTO creature_queststarter VALUES(70600, 70605);
+INSERT INTO creature_questender VALUES(70600, 70605);
+
+DELETE FROM quest_template WHERE Id = 70606;
+INSERT INTO quest_template VALUES(
+70606, -- Id
+2, -- Method
+15, 0, 0, -- level, minlevel, maxlevel
+0,  -- ZoneorSort
+0, -- type
+0, -- suggestedPlayers
+0, -- limittime
+256, 0, 0, 0, -- req class, race, skillis, skillpoints
+0, 0, 0, 0, -- req faction id 1, 2, value 1, 2
+0, 0, 0, 0, -- reqminrepfaction, maxrep, minrepvalue, maxrepval
+0, 0, 0, 0, -- prevq, nextq, exclusivegroup, nextquestidchain
+0, 0, 0, -- rewardxpid, rewardorreqmoney, rewardmoneymaxlevel
+712, 11519, -- rewardspell, rewardspellcast
+0, 0, -- rewardhonor, rewardhonormultiplier
+0, 0, -- rewardmailtemplateid, rewardmaildelay
+0, 0, 0, -- sourceitemid, sourceitemcount, sourcespellid
+0, 0, -- flags, specialflags
+0, -- rewardtitleid
+0, -- requiredplayerkills
+0, -- rewardtalents
+0, -- rewardarenapoints
+0, 0, 0, 0, -- rewarditemId 1-4
+0, 0, 0, 0, -- rewarditemcount 1-4
+0, 0, 0, 0, 0, 0, -- rewardchoiceitemid 1-6
+0, 0, 0, 0, 0, 0, -- rewardchoiceitemcount 1-6
+0, 0, 0, 0, 0, -- rewardfactionid 1-5
+0, 0, 0, 0, 0, -- rewardfactionvalue 1-5
+0, 0, 0, 0, 0, -- rewardfactionvalueidoverride 1-5
+0, 0, 0, 0, -- pointmapid, pointx, pointy, pointoption
+"Warlock - Summon Succubus", -- title
+"Complete this quest.", -- Objectives
+"It's dangerous to go alone, take these.", -- details
+"", -- EndText
+"", -- Offerrewardtext
+"", -- requestItemsText
+"", -- CompletedText
+0, 0, 0, 0, -- requiredNpcOrGo 1-4
+0, 0, 0, 0, -- requiredNpcOrGoCount 1-4
+0, 0, 0, 0, -- requiredSourceItemId 1-4
+0, 0, 0, 0, -- requiredSourceItemCount 1-4
+0, 0, 0, 0, 0, 0, -- requiredItemId 1-6
+0, 0, 0, 0, 0, 0, -- requiredItemCount 1-6
+1, -- unknown0
+"", "", "", "", -- ObjectiveText 1-4
+1, 0, 0, 0, -- DetailsEmote 1-4
+1, 0, 0, 0, -- DetailsEmoteDelay 1-4
+0, 1, -- EmoteonIncomplete, EmoteonComplete
+0, 0, 0, 0, -- offerRewardEmote 1-4
+0, 0, 0, 0, -- offerRewardEmoteDelay 1-4
+0 -- VerifiedBuild
+);
+
+DELETE FROM creature_queststarter WHERE quest = 70606;
+DELETE FROM creature_questender WHERE quest = 70606;
+INSERT INTO creature_queststarter VALUES(70600, 70606);
+INSERT INTO creature_questender VALUES(70600, 70606);
+
+DELETE FROM quest_template WHERE Id = 70607;
+INSERT INTO quest_template VALUES(
+70607, -- Id
+2, -- Method
+15, 0, 0, -- level, minlevel, maxlevel
+0,  -- ZoneorSort
+0, -- type
+0, -- suggestedPlayers
+0, -- limittime
+256, 0, 0, 0, -- req class, race, skillis, skillpoints
+0, 0, 0, 0, -- req faction id 1, 2, value 1, 2
+0, 0, 0, 0, -- reqminrepfaction, maxrep, minrepvalue, maxrepval
+0, 0, 0, 0, -- prevq, nextq, exclusivegroup, nextquestidchain
+0, 0, 0, -- rewardxpid, rewardorreqmoney, rewardmoneymaxlevel
+691, 1373, -- rewardspell, rewardspellcast
+0, 0, -- rewardhonor, rewardhonormultiplier
+0, 0, -- rewardmailtemplateid, rewardmaildelay
+0, 0, 0, -- sourceitemid, sourceitemcount, sourcespellid
+0, 0, -- flags, specialflags
+0, -- rewardtitleid
+0, -- requiredplayerkills
+0, -- rewardtalents
+0, -- rewardarenapoints
+0, 0, 0, 0, -- rewarditemId 1-4
+0, 0, 0, 0, -- rewarditemcount 1-4
+0, 0, 0, 0, 0, 0, -- rewardchoiceitemid 1-6
+0, 0, 0, 0, 0, 0, -- rewardchoiceitemcount 1-6
+0, 0, 0, 0, 0, -- rewardfactionid 1-5
+0, 0, 0, 0, 0, -- rewardfactionvalue 1-5
+0, 0, 0, 0, 0, -- rewardfactionvalueidoverride 1-5
+0, 0, 0, 0, -- pointmapid, pointx, pointy, pointoption
+"Warlock - Summon Felhunter", -- title
+"Complete this quest.", -- Objectives
+"It's dangerous to go alone, take these.", -- details
+"", -- EndText
+"", -- Offerrewardtext
+"", -- requestItemsText
+"", -- CompletedText
+0, 0, 0, 0, -- requiredNpcOrGo 1-4
+0, 0, 0, 0, -- requiredNpcOrGoCount 1-4
+0, 0, 0, 0, -- requiredSourceItemId 1-4
+0, 0, 0, 0, -- requiredSourceItemCount 1-4
+0, 0, 0, 0, 0, 0, -- requiredItemId 1-6
+0, 0, 0, 0, 0, 0, -- requiredItemCount 1-6
+1, -- unknown0
+"", "", "", "", -- ObjectiveText 1-4
+1, 0, 0, 0, -- DetailsEmote 1-4
+1, 0, 0, 0, -- DetailsEmoteDelay 1-4
+0, 1, -- EmoteonIncomplete, EmoteonComplete
+0, 0, 0, 0, -- offerRewardEmote 1-4
+0, 0, 0, 0, -- offerRewardEmoteDelay 1-4
+0 -- VerifiedBuild
+);
+
+DELETE FROM creature_queststarter WHERE quest = 70607;
+DELETE FROM creature_questender WHERE quest = 70607;
+INSERT INTO creature_queststarter VALUES(70600, 70607);
+INSERT INTO creature_questender VALUES(70600, 70607);
